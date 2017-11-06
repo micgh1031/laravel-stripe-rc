@@ -1,0 +1,14 @@
+#login {
+    text-align: center;
+    .affa-form-subscribe input[type="password"].error {
+        color: #d86c6c;
+        background-color: #f6caca;
+        border-color: #e9b8b8;
+    }
+    input[type="submit"] {
+        color: black !important;
+        &:hover {
+            color: white !important;
+        }
+    }
+}

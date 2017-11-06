@@ -1,0 +1,77 @@
+/**
+Description: Train Smart Payment Gateway
+Version: 1.0
+
+/* ============================================================
+
+[Table of contents]
+
+1.  General Styles
+2.  Header Styles
+3.  Content Styles
+4.  Footer Styles
+
+================================================================ */
+
+/* ---------------------------------------
+
+ 1. General Styles
+
+------------------------------------------ */
+
+// Font-Awesome
+@import "vendors/font-awesome/scss/font-awesome";
+
+// Base Styles
+@import "../css/bootstrap.min.css";
+@import "../css/ionicons.min.css";
+@import "../css/jquery.accordion.css";
+@import "../css/animations.css";
+@import "../css/animate.min.css";
+@import "../css/hover-min.css";
+@import "../css/jquery.fancybox.css";
+@import "../css/slick.css";
+@import "../css/slick-theme.css";
+@import "../css/style.css";
+@import "../css/no-js.css";
+
+// Custom Styles
+h1 {
+    color:white;
+}
+
+h2 {
+    font-size:36px;
+    line-height:42px;
+}
+
+h3 {
+    font-size:32px;
+    line-height:38px;
+}
+
+/* ---------------------------------------
+
+ 2. Header Styles
+
+------------------------------------------ */
+
+@import "includes/header";
+
+/* ---------------------------------------
+
+ 3. Content Styles
+
+------------------------------------------ */
+
+@import "includes/common";
+@import "auth/login";
+@import "frontend/home";
+
+/* ---------------------------------------
+
+ 4. Footer Styles
+
+------------------------------------------ */
+
+@import "includes/footer";

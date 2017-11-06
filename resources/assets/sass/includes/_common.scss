@@ -1,0 +1,41 @@
+.contact-support {
+    padding-top:50px;
+    text-align:center;
+    ul {
+        padding:0;
+        margin:0;
+        li {
+            list-style: none;
+        }
+    }
+}
+
+#errorModal {
+    .modal-dialog .modal-content {
+        .modal-body p {
+            color: #a94442;
+        }
+        .modal-footer {
+            text-align: center;
+            button {
+                text-transform: none;
+            }
+        }
+    ;
+    }
+}
+
+.loader {
+    background-image: url(../images/loading-small.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-size: 100px;
+    opacity: 0.5;
+    z-index: 101;
+    background-color: #ddd;
+}
